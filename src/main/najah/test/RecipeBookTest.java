@@ -15,7 +15,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import main.najah.code.Recipe;
 import main.najah.code.RecipeBook;
 import main.najah.code.RecipeException;
-//@Execution(value = ExecutionMode.CONCURRENT)
+@Execution(value = ExecutionMode.CONCURRENT)
 class RecipeBookTest {
 	
 	
